@@ -1,0 +1,14 @@
+.app-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .app {
+    position: absolute;
+    width: 420px;
+    height: 820px;
+    transform-origin: top left;
+    will-change: transform;
+  }
